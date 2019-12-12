@@ -19,6 +19,7 @@ const IndexPage = () => (
         bottom: 0,
         width: "100%",
         height: "100%",
+        backgroundColor: "#030203",
       }}
     >
       <source src={dataVideo} type="video/mp4" />
@@ -28,10 +29,10 @@ const IndexPage = () => (
       style={{
         position: "fixed",
         bottom: 0,
+        left: 0,
         background: "rgba(0, 22, 39, 0.7)",
         color: "#f1f1f1",
         width: "100%",
-        padding: "20px",
         height: "100%",
         display: "flex",
         justifyContent: "center",
