@@ -24,7 +24,7 @@ const IndexPage = () => (
     >
       <source src={dataVideo} type="video/mp4" />
     </video>
-    {/* check */}
+
     <div
       style={{
         position: "fixed",
